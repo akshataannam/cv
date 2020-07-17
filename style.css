@@ -1,0 +1,63 @@
+body {
+    position: relative; 
+    font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    padding-top: 54px;
+    color: #868e96;
+  
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+.text-primary {
+  color: #BD5D38 !important;
+}
+.navbar{
+ text-align: center;
+  height: 100%;
+  width: 16%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-top: 60px;
+ 
+}
+.navbar-inverse{
+  background-color: #bd5d38 !important;
+  border-color:  #bd5d38 !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus,
+ .navbar-inverse .navbar-nav>.active>a:hover{
+  color: #bd5d38 !important;
+  background-color: #bd5d38 !important;
+  color: white !important;
+ }
+#about, #experience, #education, #skills, #certification {
+  padding-top:50px;
+  height:500px;
+  width:100%;
+  margin-left: 20%;
+}
+#myNavbar ul li a {
+  font-size: 25px;
+    color: #eed4c8 ;
+    display: block;
+}
+
+#myNavbar ul li a:hover {
+  color: #f1f1f1;
+}
